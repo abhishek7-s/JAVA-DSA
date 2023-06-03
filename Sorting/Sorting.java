@@ -76,7 +76,7 @@ public class Sorting {
     public static void main(String[]Args){
         System.out.println("hii");
 
-        int Arr[]= {7,7,7,7};
+        int Arr[]= {556,484,457,487};
         // bubbleSort(Arr);
         // selectionSort(Arr);
 

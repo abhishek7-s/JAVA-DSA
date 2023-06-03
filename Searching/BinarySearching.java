@@ -4,6 +4,7 @@ public class BinarySearching {
 
     static int binarysearch(int[] arr , int target){
         //arr={2,5,8,12,15,19,25,27,28,35,39,45,56,68,79};
+        
         int start =0;
         int end = arr.length-1;
         

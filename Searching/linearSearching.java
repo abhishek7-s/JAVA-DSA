@@ -86,7 +86,7 @@ public class linearSearching {
     public static void main(String arg[]){
         
     
-        int arr[]={51,59,5,48,-32};
+        // int arr[]={51,59,5,48,-32};
 
         int acc[][]={{5,6},{5,4,3},{7,8}};
         // String name = "Abhishek";

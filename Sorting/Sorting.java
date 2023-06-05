@@ -52,8 +52,8 @@ public class Sorting {
     }
 
 
-    public static String ReturnMaxNo(int arr[]){
-        String ans ;
+    public static int ReturnMaxNo(int arr[]){
+        int ans=0;
         for(int i = arr.length ; i>0 ; i-- ){
             ans = ans+arr[i];
         }
@@ -76,13 +76,13 @@ public class Sorting {
     public static void main(String[]Args){
         System.out.println("hii");
 
-        int Arr[]= {556,484,457,487};
+        // int Arr[]= {556,484,457,487};
         // bubbleSort(Arr);
         // selectionSort(Arr);
 
         // int ans[] = smallerNumbersThanCurrent(Arr);
-        ReturnMaxNo(Arr);
+        // printer(ans);
+        // ReturnMaxNo(Arr);
 
-        printer(ans);
     }
 }

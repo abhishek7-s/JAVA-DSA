@@ -106,7 +106,7 @@ public class linearSearching {
 
         // System.out.println(MinNum(arr));
         // searchIn2Darray(arr1, 18);
-        // Maxin2Darray(arr1);
+        Maxin2Darray(arr1);
         System.out.println(MaxWealth(acc));
     
         

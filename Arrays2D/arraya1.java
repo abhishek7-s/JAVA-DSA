@@ -39,7 +39,9 @@ public class arraya1 {
         }
     
         printer(matrix, m, n);
-        finder(matrix, key);
+
+        System.out.println(matrix.toString());
+        // finder(matrix, key);
         ip.close();
     }  
 }

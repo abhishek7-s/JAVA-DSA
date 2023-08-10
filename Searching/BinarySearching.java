@@ -20,13 +20,13 @@ public class BinarySearching {
                 return mid;
             }
 
-        // If the array is in ascending order then the following algorith will work
+        // If the array is in ascending order then the following algorith will work i.e isAsc = true
             if (isAsc) {
-                if (target < arr[mid]) {
-                    end = mid - 1; // if element at index'mid' is greater then target,Then end will change & become
-                                   // 'mid-1' index
-                } else {
-                    start = mid + 1;
+                if (target < arr[mid]){ // i.e left side
+                    end = mid - 1;      // if element at index[mid] is greater then target,Then end will change & become
+                                        // 'mid-1' index
+                } else {                // (arr[mid]<target)  i.e right side
+                    start = mid + 1;    //if element at index[mid] is smaller then target,Then end will change & become
                 }
             }
         // If the array is in descending order then the following algorith will work
@@ -122,14 +122,14 @@ public class BinarySearching {
     }
 
     public static void main(String[] args) {
-        //int[] arr = { 2, 5, 8, 12, 15, 19, 39, 45, 56, 68, 79 };
+        int[] arr = { 2, 5, 8, 12, 15, 19, 39, 45, 56, 68, 79 };
         // int[] arr1 = { 99, 95, 86, 82, 55, 51, 49, 45, 43, 5 };
         int[]arr2 ={5,7,9,9,9,10,12,15,15};
 
-        // int ans = binarysearch(arr, 35); // It works only in ascending order
+        int ans = binarysearch(arr, 68); // It works only in ascending order
         // int ans1 = OrderAgnosticBS(arr1, 45); // It will work on both in ascending & descending order
-        // System.out.println(ans1);
+        System.out.println(ans);
         // System.out.println(ceilingBS(arr, 53));
-        System.out.println(FirstLastPosition(arr2, 15));
+        // System.out.println(FirstLastPosition(arr2, 15));
     }
 }

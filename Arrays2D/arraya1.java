@@ -29,7 +29,7 @@ public class arraya1 {
 
     public static void main(String[] Args){
         Scanner ip = new Scanner (System.in);
-        int key = 10;
+        // int key = 10;
         int m=3;
         int n=3;
         int matrix[][] = new int[3][3];

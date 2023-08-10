@@ -86,15 +86,15 @@ public class linearSearching {
     public static void main(String arg[]){
         
     
-        // int arr[]={51,59,5,48,-32};
+        int arr[]={51,59,5,48,-32};
 
-        int acc[][]={{5,6},{5,4,3},{7,8}};
+        // int acc[][]={{5,6},{5,4,3},{7,8}};
         // String name = "Abhishek";
-        int arr1[][] = {
-                          {56,94,78},
-                          {54,86,99},
-                          {53,95,18}
-                        };
+        // int arr1[][] = {
+        //                   {56,94,78},
+        //                   {54,86,99},
+        //                   {53,95,18}
+        //                 };
         
         //For searching in array
         // int ans= linearSearch(arr,56);
@@ -106,8 +106,8 @@ public class linearSearching {
 
         // System.out.println(MinNum(arr));
         // searchIn2Darray(arr1, 18);
-        Maxin2Darray(arr1);
-        System.out.println(MaxWealth(acc));
+        // Maxin2Darray(arr1);
+        // System.out.println(MaxWealth(acc));
     
         
 

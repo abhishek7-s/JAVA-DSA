@@ -97,8 +97,8 @@ public class linearSearching {
         //                 };
         
         //For searching in array
-        // int ans= linearSearch(arr,56);
-        // System.out.println("index is "+ans);
+        int ans= linearSearch(arr,56);
+        System.out.println("index is "+ans);
 
         //For searching in string
         // boolean ans= searchInString(name, 'a');

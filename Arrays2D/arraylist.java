@@ -6,12 +6,12 @@ public class arraylist {
     public static void main(String[] args) {
         
         //Syntax 
-        // ArrayList<Integer> list = new ArrayList<Integer >(5);
+        ArrayList<Integer> list = new ArrayList<Integer >(5);
 
-        // list.add(12);
-        // list.add(13);
+        list.add(12);
+        list.add(13);
 
-        // System.out.println(list);
+        System.out.println(list);
         // System.out.println(list.get(5));
         // list.set(0, 99);
         // System.out.println(list);

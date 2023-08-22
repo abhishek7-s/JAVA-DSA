@@ -10,6 +10,6 @@ public class stringg1 {
         b = "abhishek";       // here b is pointed to the object to which a is also pointed therefore both will equal i.e a==b
         // System.out.println(a==b);
 
-        System.out.println(b.split(b, 2));
+        System.out.println();
     }
 }
